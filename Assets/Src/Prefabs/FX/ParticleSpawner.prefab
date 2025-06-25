@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1711299730499201502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008488090424681598}
+  - component: {fileID: 4999985668587449234}
+  m_Layer: 0
+  m_Name: ParticleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008488090424681598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711299730499201502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4999985668587449234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711299730499201502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c577ef973f3842248bee732df5742fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_colors:
+  - {fileID: 2100000, guid: eed2aeaa50b3ca44f92dd7412b8b7925, type: 2}
+  - {fileID: 2100000, guid: 495e5f94ced10a845b191b6dad85a46e, type: 2}
+  - {fileID: 2100000, guid: 25773af323aef0445a73eab3745ddcf0, type: 2}
+  - {fileID: 2100000, guid: 16b9acc9f05885a419e2d4a234a8dac8, type: 2}
+  - {fileID: 2100000, guid: 8b47aecec9780ba4baecb8254e1807e3, type: 2}
+  - {fileID: 2100000, guid: 0c4f5b41073b9704080d157385090ac9, type: 2}
+  - {fileID: 2100000, guid: 375426aa390d12c42af1f8e4c6da7ad7, type: 2}
+  - {fileID: 2100000, guid: 365caae7a7bb46343a974391c165cf51, type: 2}
+  - {fileID: 2100000, guid: bf62c5d5b6341194582ddd021cfbc660, type: 2}
+  m_particleExample: {fileID: 8020497971825285860, guid: c2ca2b41d18146c4e850cb69f08c8b3f,
+    type: 3}
+  m_ParticleCountPerSpawn: 1
+  m_particleLifeTime: 0.5
+  m_spawnDelay: 0.5
+  m_spawnOffset: {x: 0, y: 0, z: 0}
+  m_minDisplacement: 1
+  m_maxDisplacement: 2
